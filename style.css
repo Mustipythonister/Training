@@ -1,0 +1,50 @@
+body{
+	padding:0;
+	margin:0;
+}
+.bar{
+	width:60px;
+	height:100vh;
+	background: #141C36;
+	overflow: hidden;
+	padding:5px;
+}
+#boxy{
+	width:100%;
+	height:50px;
+	background: #2A334C;
+	transition: 0.2s;
+	border:none;
+	color:white;
+	
+}
+#boxy:hover{
+	background:#384159;
+	cursor:pointer;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+img{
+	width:80%;
+	position: relative;
+	top:5px;
+
+}
+.guest{
+	width:100%;
+	height:50px;
+	background: #2A334C;
+	transition: 0.2s;
+	border:none;
+	margin-top: 5px;
+	color:white;
+	text-align: center;
+	
+}
+.guest:hover{
+	background:#384159;
+	cursor:pointer;
+	transition: 0.2s;
+	border-radius: 5px;
+
+}

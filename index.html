@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Side-bar</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	 
+	<div id="bar" class="bar">
+<button id="boxy" class="js-modal-trigger" data-target="modal-js-example">
+  +
+</button>	
+<br><br>
+</div>
+
+
+	<div id="modal-js-example" class="modal">
+  <div class="modal-background"></div>
+
+  <div class="modal-content">
+    <div class="box">
+      <p>Site</p>
+      <input id="url" class="input" placeholder="https://www.instagram.com/">
+      <br><br>
+      <input id="img" class="input" placeholder="Custom image url">
+      <br><br>
+      <button class="button is-warning" onclick="add('url','img','bar')">Add bookmark</button>
+      <!-- Your content -->
+    </div>
+  </div>
+
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+</body>
+</html>
