@@ -9,6 +9,7 @@ body{
 	overflow: hidden;
 	padding:5px;
 	overflow-y: auto;
+	overflow-x: auto;
 }
 #boxy{
 	width:100%;
