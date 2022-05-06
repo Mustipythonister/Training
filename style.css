@@ -48,3 +48,21 @@ img{
 	border-radius: 5px;
 
 }
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #58637F;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #455274;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #616A80;
+}
