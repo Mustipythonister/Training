@@ -63,3 +63,28 @@ function add(one, two, three, four){
   bookmark.appendChild(link);
 
 }
+function set(){
+  var st = document.getElementById("settings");
+  st.style.display="block";
+  var bar = document.getElementById("bar");
+  bar.style.display="none";
+}
+function back(){
+  var st = document.getElementById("settings");
+  st.style.display="none";
+  var bar = document.getElementById("bar");
+  bar.style.display="block";
+}
+function dark(){
+  var bar = document.getElementById("bar");
+  bar.style.background="#141C36";
+  var wrn = document.getElementById("wrn");
+  wrn.style.color="white";
+}
+function white(){
+  var bar = document.getElementById("bar");
+  var wrn = document.getElementById("wrn");
+  wrn.style.color="black";
+  bar.style.background="#EEEEEE";
+
+}
