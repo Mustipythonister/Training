@@ -45,18 +45,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-function add(one, two, three){
+function add(one, two, three, four){
   var url = document.getElementById(one).value;
-  var img = document.getElementById(two).value;
-  var parent = document.getElementById(three);
-  var new_image = document.createElement('img');
+  var name = document.getElementById(two).value;
+  var parent = document.getElementById(four);
+
   var bookmark = document.createElement('div');
   bookmark.classList.add('guest');
+  var background = document.getElementById(three).value;
+  bookmark.style.background=background;
   var link = document.createElement('a');
   link.href=url;
   parent.appendChild(bookmark);
-  new_image.src=img;
-  link.appendChild(new_image)
+  var textnode = document.createTextNode(name);
+  link.appendChild(textnode);
+  link.classList.add('linky');
   bookmark.appendChild(link);
 
 }
