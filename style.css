@@ -8,8 +8,12 @@ body{
 	background: #141C36;
 	overflow: hidden;
 	padding:5px;
+	transition: 0.3s;
 	overflow-y: auto;
-	overflow-x: auto;
+}
+.bar:hover{
+	width:500px;
+	transition: 0.5s;
 }
 #boxy{
 	width:100%;
@@ -38,7 +42,7 @@ img{
 	background: #2A334C;
 	transition: 0.2s;
 	border:none;
-	margin-top: 5px;
+	margin-top: 20px;
 	color:white;
 	text-align: center;
 	
@@ -50,8 +54,81 @@ img{
 	border-radius: 5px;
 
 }
+.facebook{
+	width:100%;
+	height: 50px;
+	background:#7C9BE7;
+	text-align: center;
+	transition: 0.2s;
+	color:white;
+	cursor:pointer;
+	overflow: hidden;
+}
+.facebook:hover{
+	background: rgb(126,167,255);
+background: linear-gradient(0deg, rgba(126,167,255,1) 0%, rgba(0,97,255,1) 100%);
+	border-radius: 5px;
+}
+.instgram{
+	width:100%;
+	height: 50px;
+	background:#E56E8F;
+	text-align: center;
+	transition: 0.3s;
+	color:white;
+	margin-top:5px;
+	cursor:pointer;
+	overflow: hidden;
+}
+.instgram:hover{
+	background: #E02156;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+.youtube{
+	width:100%;
+	height: 50px;
+	background:#EF547F;
+	text-align: center;
+	transition: 0.2s;
+	color:white;
+	cursor:pointer;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.youtube:hover{
+	background: #FD0046;
+	border-radius: 5px;
+}
+.twitter{
+	width:100%;
+	height: 50px;
+	background:#8AE1E7;
+	text-align: center;
+	transition: 0.3s;
+	color:white;
+	margin-top:5px;
+	cursor:pointer;
+	overflow: hidden;
+}
+.twitter:hover{
+	background: #07CEDC;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+.linky{
+	color:white;
+	text-decoration: none;
+	position: relative;
+	top:10px;
+}
+#wrn{
+	color: white;
+	margin-left: 10px;
+}
+
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 7px;
 }
 
 /* Track */
@@ -67,4 +144,8 @@ img{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #616A80;
+}
+
+.a{
+	color:white;
 }
