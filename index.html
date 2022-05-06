@@ -9,6 +9,9 @@
 </head>
 <body>
 	 
+
+
+
 	<div id="bar" class="bar">
 <button id="boxy" class="js-modal-trigger" data-target="modal-js-example">
   +
@@ -22,9 +25,17 @@
 	<div class="twitter"><p style="margin-top: 10px;"><a class="a" href="https://www.twitter.com">Twitter</a></p></div>
 	<br>
 
-
+<div onclick="set()" id="boxy" class="set"><p id="setp">Settings</p></div>
 </div>
 <p id="wrn">User bookmarks</p>
+</div>
+<div id="settings" class="settings">
+  <h1>Select theme</h1>
+  <div class="holder">
+    <button onclick="white()" class="button" style="width:50px;height:50px;border-radius: 50%;"></button>
+    <button onclick="dark()" class="button" style="width:50px;height:50px;border-radius: 50%;background:#363636;"></button>
+    <a onclick="back()" class="button" style="width:50px;height:50px;border-radius: 50%;"><</a>
+  </div>
 </div>
 
 
