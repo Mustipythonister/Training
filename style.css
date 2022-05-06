@@ -8,6 +8,7 @@ body{
 	background: #141C36;
 	overflow: hidden;
 	padding:5px;
+	overflow-y: auto;
 }
 #boxy{
 	width:100%;
