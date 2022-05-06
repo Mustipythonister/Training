@@ -14,6 +14,17 @@
   +
 </button>	
 <br><br>
+<div class="socialmedia">
+
+	<div class="facebook"><p style="margin-top: 10px;"><a class="a" href="https://www.facebook.com">Facebook</a></p></div>
+	<div class="instgram"><p style="margin-top: 10px;"><a class="a" href="https://www.instagram.com">Instagram</a></p></div>
+	<div class="youtube"><p style="margin-top: 10px;"><a class="a" href="https://www.youtube.com">Youtube</a></p></div>
+	<div class="twitter"><p style="margin-top: 10px;"><a class="a" href="https://www.twitter.com">Twitter</a></p></div>
+	<br>
+
+
+</div>
+<p id="wrn">User bookmarks</p>
 </div>
 
 
@@ -25,15 +36,19 @@
       <p>Site</p>
       <input id="url" class="input" placeholder="https://www.instagram.com/">
       <br><br>
-      <input id="img" class="input" placeholder="Custom image url">
+      <input id="name" class="input" placeholder="Name of bookmark">
       <br><br>
-      <button class="button is-warning" onclick="add('url','img','bar')">Add bookmark</button>
+      <input class="input" placeholder="background" id="background">
+      <br><br>
+      <button class="button is-warning" onclick="add('url','name','background','bar')">Add bookmark</button>
       <!-- Your content -->
     </div>
   </div>
 
   <button class="modal-close is-large" aria-label="close"></button>
 </div>
+
+
 
 </body>
 </html>
